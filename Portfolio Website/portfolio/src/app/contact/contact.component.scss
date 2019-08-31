@@ -1,0 +1,108 @@
+.wrapper{
+
+    display: grid;
+    grid-template-columns: auto;
+    font-family:'Montserrat';
+    align-content: center;
+    
+
+    section{
+        padding: 3em;
+    }
+
+    section.contact-text{
+        .inner{
+            margin-top: 5em;
+            
+            h2{
+                font-size: 3em;
+                color: #707070;
+                font-weight: normal;
+            }
+        }
+
+        .linkedin-logo{
+            display: block;
+            margin-top:2.5em;
+            margin-left: 0.625em;
+            width: 2.5em;
+            height: 2.5em;
+        }
+
+        .github-logo{
+            display: block;
+            margin-left: 0.625em;
+            width: 2.5em;
+            height: 2.5em;
+        }
+      
+        img{
+            float: left;
+            max-width: 70%;
+            max-height: 70%;
+        }
+       
+        h1{
+            font-family: 'OCR A';
+            font-size: 5em;
+            color: #ffffff;
+        }
+
+       p{
+           font-size: 1.25em;
+       }
+
+        h4{
+            margin-top: -2.3em;
+            margin-left: 2.5em;
+            color: #f8c8b9;
+            font-weight: normal;
+            font-size: 1.25em;
+        }
+
+        .talkInfo{
+            color:#daa07f;
+            margin-left: 0.625em;
+            margin-top: -2.5em;
+            margin-bottom: 1.875em;
+            font-size: 1.5625em;
+        }
+
+        .contactDetail{
+            color:#ffffff;
+            
+            p{
+                font-size: 1.5625em;
+                margin-left: 0.625em;
+                margin-bottom: 1.25em;
+            }
+            
+        }
+
+        .contactInfo{
+            margin-top: -1.375em;
+            color:#f8c8b9;
+        }
+
+       
+
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+
+}
+
+@media only screen and (min-width: 1800px) {
+    html {
+        font-size: 21px;
+    }
+}

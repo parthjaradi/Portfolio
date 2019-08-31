@@ -1,0 +1,42 @@
+
+header {
+    position: absolute;
+    padding: 1em 1em 1em 0;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 2em);
+    padding-left: -2em;
+    
+    font-family: 'Montserrat';
+
+    a.logo{
+        text-decoration: none;
+        color:#f5e1d6;
+        padding-left: 1em;
+        font-weight: bold;
+        padding-top:0.5em;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        color:#f5e1d6;
+
+        li {
+            padding: 0.5em;
+            color:#f5e1d6;
+            font-weight: bold;
+
+            a{
+                color:#f5e1d6;
+            }
+        }
+    }
+
+
+}

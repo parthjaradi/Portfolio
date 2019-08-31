@@ -1,0 +1,178 @@
+.container{
+    height: 97vh;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 3.75em 0.635em;
+  }
+
+
+.wrapper {
+    margin-left: calc(25%);
+}
+
+/* Clear floats after the columns */
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li{
+    margin-left: -0.3125em;
+}
+
+
+.progLangCard,.webTechCard,.softwareCard{
+    margin-top: 5em;
+}
+
+.progLangCard {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 14em;
+    height: 20em;
+    border-radius: 1.4em;
+    background-image: linear-gradient(to bottom right, #D15CD5,#7B8EDB);
+
+    h3{
+        color: #EEEEEE;
+        font-family: 'Georgia';
+        font-weight: normal;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+
+    }
+
+  
+
+    li{
+        color:#404040;
+        font-size: 1.25em;
+        margin-left: -0.8em;
+        font-weight: strong;
+        font-family:'Montserrat';
+
+    }
+
+
+  }
+
+.webTechCard {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 14em;
+    height: 20em;
+    border-radius: 1.4em;
+    background-image: linear-gradient(to bottom right, #FEDFDF,#F34040);
+
+    h3{
+        color:#2E3D8D;
+        font-family: 'Georgia';
+        font-weight: normal;
+        font-size: 1.25em;
+        margin-bottom: 2em;
+    }
+
+    li{
+        color:#414141;
+        font-size: 1.25em;
+        margin-left: -0.8em;
+        font-weight: strong;
+        font-family:'Montserrat';
+    }
+
+    
+}
+
+.softwareCard {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 14em;
+    height: 20em;
+    border-radius: 1.4em;
+    background-image: linear-gradient(to bottom right, #46FBA1,#71C3F9);
+
+    h3{
+        font-family: 'Georgia';
+        font-weight: normal;
+        font-size: 1.25em;
+        margin-bottom: 3.1em;
+    }
+
+
+  
+    li{
+        color:#5B5B5B;
+        font-size: 1.25em;
+        margin-left: -0.8em;
+        font-weight: strong;
+        font-family:'Montserrat';
+    }
+
+    
+
+}
+
+
+.resume{
+    
+    align-content: center;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.5em;
+    p{
+        color:#E7FCEA;
+    }
+    a{
+        color: #db8f51;
+    }
+}
+
+
+
+h3{
+    padding-left: 1.0625em;
+    padding-top: 1.25em;
+}
+
+a{
+    text-decoration: none;
+    color:#0D366B;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.skillList {
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+    -moz-column-count: 2; /* Old Firefox */
+    column-count: 2;
+  }
+
+
+
+@media screen and (max-width: 600px) {
+
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 1.25em;
+      padding: 0;
+    }
+
+    .progLangCard,.webTechCard,.softwareCard{
+        margin-left: 6em;
+    }
+
+    .webTechCard,.softwareCard{
+        margin-top:1.5em;
+    }
+  }
