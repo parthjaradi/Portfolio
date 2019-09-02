@@ -9,7 +9,8 @@
 
     section.home-text{
         .inner{
-            margin-top: calc(50%);
+            margin-top: calc(37.5%);
+            margin-left:calc(12.5%);
             h2{
                 font-size: 2.5em;
                 color: #707070;
@@ -23,13 +24,8 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
-    html {
-        font-size: 18px;
-    }
-}
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 768px) {
 
     .wrapper {
         display: grid;
@@ -39,7 +35,11 @@
         section.home-text {
             width: 80%;
             .inner{
-                margin-top:2em;
+                margin-top:calc(25%);
+                margin-left:0;
+            }
+            h2{
+                font-size: 1.5em;
             }
         }
         

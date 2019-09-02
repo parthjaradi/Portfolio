@@ -9,7 +9,9 @@
 
 
 .wrapper {
-    margin-left: calc(25%);
+    margin-left: calc(12.5%);
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 /* Clear floats after the columns */
@@ -71,7 +73,7 @@ li{
         color:#2E3D8D;
         font-family: 'Georgia';
         font-weight: normal;
-        font-size: 1.25em;
+        font-size: 1.5em;
         margin-bottom: 2em;
     }
 
@@ -97,7 +99,7 @@ li{
     h3{
         font-family: 'Georgia';
         font-weight: normal;
-        font-size: 1.25em;
+        font-size: 1.5em;
         margin-bottom: 3.1em;
     }
 
@@ -155,10 +157,12 @@ ul{
 
 
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
     .wrapper {
-        margin-left: 0;
+        align-content: center;
+        display: grid;
+        grid-template-columns: auto;
     }
 
     .column {

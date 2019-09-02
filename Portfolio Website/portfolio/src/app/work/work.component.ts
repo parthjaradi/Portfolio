@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TimelineMax, Power2, TweenLite, Power4, Power1} from 'gsap';
+import {TimelineMax, Power2, TweenLite, Power4, Power1, Power3} from 'gsap';
 
 @Component({
   selector: 'app-work',
@@ -25,13 +25,13 @@ export class WorkComponent implements OnInit {
     tl.staggerFrom('.sneakersstop', 0.1, {
       opacity: 0,
       x:-40,
-      ease: Power2.easeIn
+      ease: Power2.easeOut
     })
 
     tl.staggerFrom(['.cts','.CBIR'], 0.1, {
       opacity: 0,
       y:-40,
-      ease: Power2.easeIn
+      ease: Power2.easeOut
     })
 
     tl.staggerFrom(['.tedTalk','.votingSystem'], 0.1, {
