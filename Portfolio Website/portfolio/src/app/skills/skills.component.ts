@@ -19,7 +19,7 @@ export class SkillsComponent implements OnInit {
     var tl = new TimelineMax();
    
     tl.to(['.progLangCard','.webTechCard','.softwareCard'], 2, {
-      opacity: 0.65,
+      opacity: 0.8,
       ease:Power2.easeInOut
     })
     

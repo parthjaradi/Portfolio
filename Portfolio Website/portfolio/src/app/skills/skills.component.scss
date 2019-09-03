@@ -163,6 +163,7 @@ ul{
         align-content: center;
         display: grid;
         grid-template-columns: auto;
+        margin-left: calc(12.5%);
     }
 
     .column {
@@ -173,7 +174,7 @@ ul{
     }
 
     .progLangCard,.webTechCard,.softwareCard{
-        margin-left: 6em;
+        margin-left: calc(12.5%);
     }
 
     .webTechCard,.softwareCard{

@@ -16,41 +16,41 @@ export class WorkComponent implements OnInit {
 
   animateWork():void{
     var tl = new TimelineMax();
-    tl.staggerFrom('.projects', 0.3, {
+    tl.staggerFrom('.wrapper', 0.8, {
       opacity: 0,
       scale: .25,
       ease: Power2.easeOut
     })
     
-    tl.staggerFrom('.sneakersstop', 0.1, {
-      opacity: 0,
-      x:-40,
-      ease: Power2.easeOut
-    })
+    // tl.staggerFrom('.sneakersstop', 0.1, {
+    //   opacity: 0,
+    //   x:-40,
+    //   ease: Power2.easeOut
+    // })
 
-    tl.staggerFrom(['.cts','.CBIR'], 0.1, {
-      opacity: 0,
-      y:-40,
-      ease: Power2.easeOut
-    })
+    // tl.staggerFrom(['.cts','.CBIR'], 0.1, {
+    //   opacity: 0,
+    //   y:-40,
+    //   ease: Power2.easeOut
+    // })
 
-    tl.staggerFrom(['.tedTalk','.votingSystem'], 0.1, {
-      opacity: 0,
-      y:40,
-      ease: Power2.easeIn
-    })
+    // tl.staggerFrom(['.tedTalk','.votingSystem'], 0.1, {
+    //   opacity: 0,
+    //   y:40,
+    //   ease: Power2.easeIn
+    // })
 
-    tl.staggerFrom('.sourceCode', 0.1, {
-      opacity: 0,
-      x:40,
-      ease: Power2.easeIn
-    })
+    // tl.staggerFrom('.sourceCode', 0.1, {
+    //   opacity: 0,
+    //   x:40,
+    //   ease: Power2.easeIn
+    // })
 
-    tl.staggerFrom('.ui', 0.1, {
-      opacity: 0,
-      scale: .25,
-      ease: Power2.easeOut
-    })
+    // tl.staggerFrom('.ui', 0.1, {
+    //   opacity: 0,
+    //   scale: .25,
+    //   ease: Power2.easeOut
+    // })
 
   }
 
